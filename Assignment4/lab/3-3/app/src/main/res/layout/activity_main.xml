@@ -18,7 +18,7 @@
 
     <Spinner
         android:spinnerMode="dropdown"
-        android:id="@+id/id"
+        android:id="@+id/sp"
         android:layout_width="match_parent"
         android:layout_height="40dp"/>
 
