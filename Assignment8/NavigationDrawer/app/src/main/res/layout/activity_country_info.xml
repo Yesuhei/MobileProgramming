@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".CountryInfo">
+
+
+
+
+    <ImageView
+        android:id="@+id/infoimg"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"
+        android:src="@drawable/usa" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarThumbVertical="@android:color/holo_orange_dark"
+        android:fadeScrollbars="false">
+    <TextView
+        android:id="@+id/infodesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USA: America may be the world's most influential
+        country, but there is more to USA than influence and power. In fact,
+         when it comes to nature, USA has the best of natural treasures. Alaska,
+          for instance, has the world's well-preserved wildlife and Lake Tahoe
+           has unparalleled clear waters and ski resorts. It cannot be denied
+           that USA's prime spots have direct links to shopping malls, fast food
+           joints, flashy billboards, and unbelievably busy people, but these traits
+            add to the reasons why the USA is such an interesting country for both work and leisure."
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_margin="15dp"
+        />
+    </ScrollView>
+
+</LinearLayout>

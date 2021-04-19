@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:id="@+id/iv"
+            android:layout_width="154dp"
+            android:layout_height="152dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/b" />
+
+        <TextView
+            android:layout_width="272dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="185dp"
+            android:layout_marginTop="20dp"
+            android:text="Name: Yesuhei"
+            android:textColor="#000"
+            android:textSize="22dp" />
+
+        <TextView
+            android:textColor="#000"
+            android:layout_width="272dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="185dp"
+            android:layout_marginTop="60dp"
+            android:text="Age: 19"
+            android:textSize="22dp" />
+        <TextView
+            android:textColor="#000"
+            android:layout_width="272dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="185dp"
+            android:layout_marginTop="100dp"
+            android:text="Department: CS"
+            android:textSize="22dp" />
+        <TextView
+            android:textColor="#000"
+            android:layout_width="272dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="185dp"
+            android:layout_marginTop="140dp"
+            android:text="Course: 3"
+            android:textSize="22dp" />
+    </RelativeLayout>
+</LinearLayout>
