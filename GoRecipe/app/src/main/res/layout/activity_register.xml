@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_marginTop="0dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/path3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_marginTop="-50dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/path2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/chooseLoginBtn"
+                android:fontFamily="sans-serif-light"
+                android:textSize="50px"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/white"
+                android:text="Login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/chooseRegisterBtn"
+                android:fontFamily="sans-serif-light"
+                android:textSize="50px"
+
+                android:backgroundTint="#FF794F"
+                android:text="Register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <EditText
+            android:id="@+id/etUsername"
+            android:fontFamily="sans-serif-light"
+            android:textSize="70px"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#FF794F"
+            android:hint="username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/etPassword"
+            android:fontFamily="sans-serif-light"
+            android:textSize="70px"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#FF794F"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/registerBtn"
+            android:fontFamily="sans-serif-light"
+            android:textSize="50px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#FF794F"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/playball"
+        android:text="GoRecipe"
+        android:textColor="#FF794F"
+        android:textSize="70px" />
+
+
+</RelativeLayout>
